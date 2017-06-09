@@ -1,0 +1,8 @@
+This was created to check the ptotocol mismatch issue between IS 4.6.0 and AS 5.3.0 in JDK 1.7 (TLSv1.1 issue)
+
+Written a custom web client which can invoke the admin services from IS 4.6.0(https://localhost:9443/services/AuthenticationAdmin?wsdl)
+Deployed the web application in AS
+Invoked the admin services
+
+
+I used jdk1.7.0_79 for both servers.
